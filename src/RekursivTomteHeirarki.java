@@ -26,15 +26,9 @@ public class RekursivTomteHeirarki {
         RekursivTomteHeirarki H = new RekursivTomteHeirarki();
         H.initialize();
         H.vilkenChef();
-//        System.out.println(H.vemJobbarUnder(H.tomten));
-//        System.out.println(H.vemJobbarUnder(H.butter));
-//        System.out.println(H.vemJobbarUnder(H.blyger));
-
 
     }
-
     public void initialize() {
-//    slaves.add("Tomten");
         slaves.add(tomten);
         tomten.add("Tomten ");
         tomten.add(glader);
